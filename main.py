@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 from datetime import datetime
 
-GOOGLE_API_KEY = "AIzaSyAfS3U8KKemg6KJEU-4kwYbN_MqQ6nS9eY"
+GOOGLE_API_KEY = "Your_Google_API_Key_Here"
 if not GOOGLE_API_KEY:
     st.error(
         "Missing GOOGLE_API_KEY environment variable. Please set it in a .env file."
